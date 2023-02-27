@@ -269,7 +269,7 @@ footer a {
 
 /*medium view*/
 
-@media screen and (min-width: 577px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 769px) {
 
 
     body{
@@ -291,21 +291,33 @@ footer a {
     }
 
     h1{
-        font-size: 60px;
+        font-size: 59px;
         line-height: 1.1;
     }
 
     table{
         margin-inline: auto;
+        font-size: 17px ;
+        width: 470px;
+        margin-block: 10rem;
+    }
+
+    td, th{
+        padding-block: 1rem;
+    }
+    iframe{
+        height: 175px;
     }
 
     section{
-        height: 260px;
+        height: 250px;
+        margin-inline: 1rem;
+        
     }
 
     
     section h2 {
-        font-size: 2.5rem ;
+        font-size: 2.3rem ;
         background-color:#a3a3a3 ;
         text-transform: capitalize;
         margin-top: 1.2rem;
@@ -314,9 +326,9 @@ footer a {
 
     input {
         width: 470px;
-        height: 52px; 
+        height: 50px; 
         font-size: 15px;
-        margin-block: 1.3rem;
+        margin-bottom: 2rem;
     }
 
     section button{
@@ -326,7 +338,10 @@ footer a {
     }
     
     aside h2{
-        font-size: 34px;
+        font-size: 37px;
+    }
+    aside div{
+        height: 140px;
     }
 
     footer{
