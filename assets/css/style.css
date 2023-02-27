@@ -178,14 +178,20 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+
+
 /*mobile view*/
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 300px) and (max-width: 769px) {
     body{
-        font-size: 1.8rem;
+        font-size: 2.5rem;
+        max-width: 769px;
         
     }
+
+
     h1{
-        font-size: 4.3rem;
+        font-size: 6.5rem;
         line-height: 1.2;
     }
 
@@ -196,7 +202,9 @@ footer a {
         margin-top: 1.3rem;
 
     }
-
+    header p{
+        font-size: 22px;
+    }
    
 
     header div img {
@@ -207,6 +215,7 @@ footer a {
     header nav li{
         display: inline;
         margin-inline: 0.5rem ;
+        font-size: 22px;
     }
 
     table{
@@ -214,31 +223,39 @@ footer a {
     }
 
     iframe {
-        height: 175px;
+        height: 250px;
+    }
+
+    section h2 {
+        font-size: 33px;
     }
 
     input {
-       width: 195px;
-       height: 33px; 
-       font-size: 18px;
+       width: 275px;
+       height: 45px; 
+       font-size: 22px;
        margin-block: 1.3rem;
     }
 
     section button{
-    height:30px ;
-    width: 75px;
-    font-size: 16px ;
+    height:35px ;
+    width: 95px;
+    font-size: 20px ;
     }
 
     aside h2{
-        font-size: 36px;
+        font-size: 50px;
+    }
+
+    footer {
+        font-size: 30px;
     }
 
 }
 
 /*medium view*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
 
 
     body{
@@ -301,5 +318,14 @@ footer a {
     footer{
         font-size: 20px;
     }
+}
+
+
+
+
+/*desktop view*/
+
+@media screen and (min-width: 1200px) {
+
 }
 
