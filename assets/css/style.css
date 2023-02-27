@@ -178,3 +178,128 @@ footer {
 footer a {
     color: fuchsia;
 }
+/*mobile view*/
+@media screen and (max-width: 576px) {
+    body{
+        font-size: 1.8rem;
+        
+    }
+    h1{
+        font-size: 4.3rem;
+        line-height: 1.2;
+    }
+
+    section h2 {
+        font-size: 2.5rem ;
+        background-color:#a3a3a3 ;
+        text-transform: capitalize;
+        margin-top: 1.3rem;
+
+    }
+
+   
+
+    header div img {
+        width: 160px;
+        margin-bottom: 13px;
+    }
+
+    header nav li{
+        display: inline;
+        margin-inline: 0.5rem ;
+    }
+
+    table{
+        width: 88%;
+    }
+
+    iframe {
+        height: 175px;
+    }
+
+    input {
+       width: 195px;
+       height: 33px; 
+       font-size: 18px;
+       margin-block: 1.3rem;
+    }
+
+    section button{
+    height:30px ;
+    width: 75px;
+    font-size: 16px ;
+    }
+
+    aside h2{
+        font-size: 36px;
+    }
+
+}
+
+/*medium view*/
+
+@media screen and (max-width: 768px) {
+
+
+    body{
+        font-size: 20px;
+    }
+
+
+    header p{
+        font-size: 20px;
+    }
+    
+    header nav ul{
+        font-size: 20px;
+    }
+
+    header nav li{
+        display: inline;
+        margin-right: 7px;
+    }
+
+    h1{
+        font-size: 60px;
+        line-height: 1.1;
+    }
+
+    table{
+        margin-inline: auto;
+    }
+
+    section{
+        height: 260px;
+    }
+
+    
+    section h2 {
+        font-size: 2.5rem ;
+        background-color:#a3a3a3 ;
+        text-transform: capitalize;
+        margin-top: 1.2rem;
+
+    }
+
+    input {
+        width: 470px;
+        height: 52px; 
+        font-size: 15px;
+        margin-block: 1.3rem;
+    }
+
+    section button{
+        height:50px ;
+        width: 120px;
+        font-size: 12px ;
+    }
+    
+    aside h2{
+        font-size: 34px;
+    }
+
+    footer{
+        font-size: 20px;
+    }
+}
+
