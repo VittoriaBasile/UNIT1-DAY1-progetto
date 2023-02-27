@@ -182,28 +182,30 @@ footer a {
 
 
 /*mobile view*/
-@media screen and (min-width: 300px) and (max-width: 769px) {
+@media screen and (min-width: 300px) and (max-width: 576px) {
     body{
-        font-size: 2.5rem;
+        font-size: 1.85rem;
         max-width: 769px;
         
+    }
+    
+    header {
+        font-size: 2rem;
     }
 
 
     h1{
-        font-size: 6.5rem;
+        font-size: 5rem;
         line-height: 1.2;
     }
 
+   
     section h2 {
-        font-size: 2.5rem ;
+        font-size: 2rem ;
         background-color:#a3a3a3 ;
         text-transform: capitalize;
         margin-top: 1.3rem;
 
-    }
-    header p{
-        font-size: 22px;
     }
    
 
@@ -215,47 +217,59 @@ footer a {
     header nav li{
         display: inline;
         margin-inline: 0.5rem ;
-        font-size: 22px;
+        
     }
 
     table{
         width: 88%;
     }
 
+    th{
+        padding: 13px 10px;
+    }
+
     iframe {
-        height: 250px;
+    height: 175px;
     }
 
     section h2 {
-        font-size: 33px;
+        font-size: 27px;
+    }
+
+    section p{
+        font-size: 18px;
     }
 
     input {
-       width: 275px;
-       height: 45px; 
-       font-size: 22px;
+       width: 190px;
+       height: 30px; 
+       font-size: 15px;
        margin-block: 1.3rem;
     }
 
     section button{
-    height:35px ;
-    width: 95px;
-    font-size: 20px ;
+    height:26px ;
+    width: 75px;
+    font-size: 15px ;
     }
 
     aside h2{
-        font-size: 50px;
+        font-size: 38px;
+    }
+    aside div{
+        height: 150px;
     }
 
     footer {
-        font-size: 30px;
+        font-size: 22px;
+        height: 235px;
     }
 
 }
 
 /*medium view*/
 
-@media screen and (min-width: 769px) and (max-width: 1200px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
 
 
     body{
