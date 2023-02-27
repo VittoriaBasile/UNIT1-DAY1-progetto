@@ -295,6 +295,10 @@ footer a {
         line-height: 1.1;
     }
 
+    main h2{
+        font-weight: bold;
+    }
+
     table{
         margin-inline: auto;
         font-size: 17px ;
@@ -355,6 +359,93 @@ footer a {
 /*desktop view*/
 
 @media screen and (min-width: 1200px) {
+
+body{
+    font-size: 16.5px;
+    background-size: contain ;
+    
+}
+
+header, main, footer{
+    width: 86%;
+    margin-inline: 7%;
+}
+
+
+header{
+   
+    vertical-align: middle;
+}
+
+header div img{
+    display:inline-b;
+    vertical-align: middle;
+}
+
+main{
+    line-height: 3.5rem;
+}
+
+nav{
+    vertical-align: middle;
+}
+h1{
+font-size: 49px;
+}
+
+main h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table{
+    margin-inline: auto ;
+    width: 650px;
+}
+
+td, th{
+    padding-block: 0.5rem;
+    font-size: 14px;
+}
+
+iframe{
+    width: 500px;
+    height: 230px;
+}
+
+section{
+    width: 500px;
+    height: 230px;
+}
+
+section h2{
+    background-color: #969494;
+}
+
+input{
+    width: 320px;
+    height: 38px;
+}
+
+button{
+    width: 90px;
+    height: 36px;
+    font-size: 10px;
+}
+
+aside div{
+    display:inline-block;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 16px;
+    padding-inline: 190px;
+}
+
+
+
 
 }
 
