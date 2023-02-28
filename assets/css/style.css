@@ -373,17 +373,38 @@ header, main, footer{
 
 
 header{
-   
-    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    
 }
 
 header div img{
-    display:inline-b;
-    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    inset: 1rem auto 3rem 0.5rem;
+    height: 4.6rem;
+
 }
+
+header p{
+    position: absolute;
+    inset: 2.3rem auto 3rem 25rem;
+    
+}
+
+header nav li{
+    display: inline;
+    
+}
+
+header nav{
+    position: absolute;
+    inset: 2.3rem 3rem 3rem auto;
+} 
 
 main{
     line-height: 3.5rem;
+    position: relative;
 }
 
 nav{
@@ -409,13 +430,20 @@ td, th{
 }
 
 iframe{
-    width: 500px;
+    display: inline;
+    width: 48%;
     height: 230px;
+    margin-left: 1.5rem;
 }
 
 section{
-    width: 500px;
+    display: inline-block;
+    width: 48%;
     height: 230px;
+    position: absolute;
+    right: 2.5rem;
+    border-radius: 15px;
+    
 }
 
 section h2{
@@ -433,14 +461,21 @@ button{
     font-size: 10px;
 }
 
+aside h2 {
+    font-size: 30px;
+}
+
 aside div{
     display:inline-block;
+    width: 33%;
+
+   
     
 }
 
 footer{
     text-align: center;
-    font-size: 16px;
+    font-size: 16.5px;
     padding-inline: 190px;
 }
 
